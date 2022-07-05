@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Grape+Nuts&family=Smooch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Grape+Nuts&family=Smooch&family=Sorts+Mill+Goudy&display=swap');
+
+h1 {color: #fdfefe;
+  font-family: 'Source Sans Pro', sans-serif;
+font-size: 2.5rem;
+text-transform: uppercase;
+font-weight: 700;}
+
+<style>
+/* Custom style to prevent carousel from being distorted
+   if for some reason image doesn't load */
+.carousel-item{
+    min-height: 280px;
+}
+</style>
+
+body {background-color:  #fef9e7; }
+h2 {font-family:'Source Sans Pro', sans-serif;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+h3 {color:   #212f3c ; text-decoration: underline; }
+h5 {font-family:'Source Sans Pro', sans-serif;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: 300;
+}
+p {font-family:'Source Sans Pro', sans-serif;
+  color:  #1b2631;
+  text-align: justify;
+  font-size: 1rem}
+ul {text-align: left;;}
+ol {text-align: justify;}
+img {width: 500px; height: 500px; }
+
+body
+#facebook {width: 6vw; height: 6vw;}
+#instagram {width: 6vw; height: 6vw;}
+#whatsapp {position: fixed; top: 75%; right: 10%; width: 6vw; height: 6vw;}
+#telefono {width: 2vw; height: 2vw;}
+#ubicacion {width: 2vw; height: 2vw;}
+#reloj {width: 2vw; height: 2vw;}
+.navegador {color: #186a3b ; text-decoration: overline; font-style: italic; font-size: 2rem;}
+
+header {background-color: #bb8fce;
+height: 20vh;
+justify-content: space-around;}
+nav ul li {display: inline-block; margin:1%; font-size: 1rem; display: block;
+float: right;
+text-align: center;
+padding: 0.80em 1.5em;
+font-weight: 600;
+text-transform: uppercase;
+outline: 0;
+color:  #5d6d7e ;}
+
+.flex {display: flex; justify-content: flex-start;}
+.carrousel {display: flex; justify-content: center;}
+
+footer {
+  background-color:  #bb8fce ; margin: 2%; height: 30vh; clear: both;}
+.foot {color:  #212f3c; text-decoration: overline; font-style: italic; font-size: 25px;}
+.redes {display: flex; justify-content: flex-start; align-items: flex-start; }
+a:link {color: #5d6d7e;}
+a:visited {color: #34495e;}
+#foto1:hover {border-radius: 50%;}
+.contactos {background-color:  #e59866; width: 75%; float:left; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; overflow: auto;}
+.info {display: flex; justify-content: flex-end; align-items: center;;}
+
+@media (max-width: 600px) {
+  .flex {display: flex; flex-direction: column;}
+}
+
+@media (max-width:900px) {
+  header {background-color:  #aed6f1; }
+  footer {background-color:  #aed6f1;}
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.03);
+}
